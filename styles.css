@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc; /* Beige background */
+}
+
+header {
+    background-color: #d2e7d0; /* Light green */
+    padding: 10px 20px;
+    border-bottom: 1px solid #91bf89; /* Dark green border */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon, .user-icon {
+    font-size: 24px;
+    color: #37693e; /* Dark green */
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #91bf89; /* Dark green border */
+    border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    border: 1px solid #91bf89; /* Dark green border */
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #d2e7d0; /* Light green */
+    cursor: pointer;
+}
+
+.login-button {
+    padding: 5px 15px;
+    border: 1px solid #91bf89; /* Dark green border */
+    border-radius: 4px;
+    background-color: #d2e7d0; /* Light green */
+    cursor: pointer;
+    color: #37693e; /* Dark green text */
+}
+
+main {
+    padding: 20px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.info-box {
+    width: 30%;
+}
+
+.info-box h2 {
+    font-size: 24px;
+    color: #37693e; /* Dark green */
+}
+
+.main-image {
+    width: 30%;
+    text-align: center;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.plan-section {
+    text-align: center;
+}
+
+.plan-section h2 {
+    color: #37693e; /* Dark green */
+}
+
+.meal-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.meal-option {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.meal-option img {
+    width: 100%;
+    height: auto;
+}
+
+.look-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #37693e; /* Dark green */
+    color: #fff;
+    cursor: pointer;
+}
+
+.favorite-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #37693e; /* Dark green */
+    cursor: pointer;
+}
